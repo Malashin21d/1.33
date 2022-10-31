@@ -5,5 +5,5 @@ people = int.Parse(Console.ReadLine());
 Console.WriteLine("Ввидите площадь страны");
 area = int.Parse(Console.ReadLine());//  ввод значений
 double result;
-result = people / area;
-Console.WriteLine(" Ответ {0} на км в квадрате",result);
+result = people / area;//  Расчёт
+Console.WriteLine(" Ответ {0} на км в квадрате",result);// Результат 
